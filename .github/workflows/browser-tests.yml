@@ -48,7 +48,7 @@ jobs:
       options: --ipc=host
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       # setup-vp is skipped because the container already has Node + npm
       # baked in; running setup-node inside `container:` can fight with the
       # image's own Node. Install pnpm at the locked version directly.
