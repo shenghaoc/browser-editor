@@ -40,7 +40,7 @@
 	"devDependencies": {
 		"@playwright/test": "1.61.0",
 		"@tailwindcss/vite": "^4.3.0",
-		"@types/node": "^24.13.3",
+		"@types/node": "^26.1.2",
 		"@typescript/native": "npm:typescript@^7.0.2",
 		"@webgpu/types": "^0.1.71",
 		"eslint-plugin-solid": "^0.14.5",
